@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--white);
+    max-width: 1440px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header-menu-link {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.hero-section-cta {
+    text-transform: capitalize;
+}
+
+.hero-section {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.feature-section {
+    text-transform: capitalize;
+}
+
+.our-team-member,
+what-are-we-doing-title {
+    text-align: center;
+}
