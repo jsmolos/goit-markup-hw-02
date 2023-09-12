@@ -38,7 +38,18 @@ button {
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
-    }
+}
+
+.iris {
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
 .main-header-logo-link {
     color: var(--navyblue);
@@ -51,9 +62,8 @@ button {
     text-transform: uppercase;
 }
 
-.iris {
-    width: 44px;
-    color: var(--iris);
+.footer-logo-link {
+    color: var(--cloud);
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
@@ -124,7 +134,6 @@ button {
 }
 
 .feature-list-item-title {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
@@ -219,7 +228,6 @@ button {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: flex;
 }
 
 .footer-description {
@@ -275,6 +283,12 @@ button {
     background: var(--cloud);
 }
 
+.portfolio-filter-list-item-cta:hover {    
+    background: var(--ocean);
+    border-color: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px   rgba(0, 0, 0, 0.10);
+}
+
 .portfolio-list-item-title {
     color: var(--navyblue);
     font-size: 20px;
@@ -300,7 +314,6 @@ button {
 }
 
 .portfolio-footer-logo-link {
-    display: flex;
     width: 71px;
     height: 21px;
     flex-direction: column;
@@ -313,22 +326,6 @@ button {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.portfolio-footer-iris {
-    color: var(--iris);
-    font-family: Raleway;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    display: flex;
-    width: 44px;
-    height: 21px;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .portfolio-footer-description {
